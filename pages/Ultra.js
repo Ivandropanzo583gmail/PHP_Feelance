@@ -18,7 +18,7 @@ export default function Ultra() {
           </div>
       
          
-          <div className="pl-20">
+          <div className="pl-20 max-md:hidden">
             <button className="px-8 py-2 bg-white text-black rounded-full hover:bg-gray-200 ">
               Sign Up
             </button>
@@ -41,12 +41,20 @@ export default function Ultra() {
               Get started
             </button>
           </div>
-          <div className="mt-10 md:mt-0">
+          <div className=" md:mt-0 h-20">
            
             <img src="./realidade_virtual.png" alt="VR Glasses" className="w-full max-w-sm" />
          
           </div>
         </div>
+
+        <div className="pl-10 mt-20 md:hidden">
+          <button className="px-8  py-2 bg-white text-black rounded-full hover:bg-gray-200 ">
+            Sign Up
+          </button>
+        </div>
+
+        
   
        <Link href="/Max">
           <button className="absolute bottom-10 right-10 px-4 py-2 border border-white rounded-full hover:bg-gray-700">
