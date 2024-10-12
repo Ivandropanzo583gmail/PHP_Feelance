@@ -1,14 +1,18 @@
-import Ultra from "./Ultra"
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
+import LadingPage from '../components/LadingPage'
 export default function Home() {
   return (
     <>
       <div>
-        <Ultra />
+        <Navbar />
+        <LadingPage />
+        {/*<PropostaState />*/}
         <Head>
-          <link rel="shortcut icon" href="./realidade_virtual.png" />
-          <title>Banner</title>
-        </Head>
+        <link rel="shortcut icon" href=".//NavBar/Logo.png" />
+        <title>FreeLancerPHP</title>
+      </Head>
+        
       </div>
     </>
   )
