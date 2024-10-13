@@ -52,7 +52,7 @@ export default function ParentComponent() {
             className="bg-blue-800 text-white py-4 px-8 rounded-md"
             onClick={openModal}
             >
-             ENVIAR UMA PROPOSTA
+             ENVIAR UMA PROPOSTAA
             </button>
             <div className='-mb-20 absolute right-3/3'>
               <span className=" px-5 py-1 ">Encerra em: 01:12:26:64</span>

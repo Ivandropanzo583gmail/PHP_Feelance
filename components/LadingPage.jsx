@@ -199,7 +199,7 @@ export default function LadingPage() {
                 </ul>
                 <button
                     onClick={loadMore}
-                    className="bg-gray-900 py-2 px-4 rounded-md mt-4 w-full"
+                    className="bg-gray-900 py-2 px-4 rounded-md mt-4 w-full hover:bg-gray-600"
                 >
                     CARREGAR MAIS
                 </button>

@@ -39,7 +39,7 @@ export default function ParentComponent() {
       <div className='flex justify-between '>
         <div className="mt-10 ">
           {!isEncerrado ? (
-            <span className="bg-green-200 text-green-800 px-3 py-1 rounded-full ">Aceitando Proposta</span>
+            <span className="bg-green-200 text-green-800 px-3 py-1 rounded-full max-md:hidden">Aceitando Proposta</span>
           ) : (
             <span className="bg-red-200 text-red-800 px-3 py-1 rounded-full">Encerrado</span>
           )}
@@ -47,9 +47,9 @@ export default function ParentComponent() {
 
         {/* Botão para abrir o modal */}
         {!isEncerrado && (
-        <div className=''>
+        <div className='max-md:mb-10'>
             <button
-            className="bg-blue-800 text-white py-4 px-8 rounded-md max-md:px-2"
+            className="bg-blue-800 text-white py-4 px-8 rounded-md max-md:w-full "
             onClick={openModal}
             >
              ENVIAR UMA PROPOSTA
